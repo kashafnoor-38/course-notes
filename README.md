@@ -3,6 +3,40 @@ Object-Oriented Programming (OOP) is a programming paradigm that focuses on orga
 
 ## Core Concepts of OOP
  Class  – A blueprint for creating objects. It defines properties (attributes) and behaviors (methods).
+ ```cpp
+#include <iostream>
+using namespace std;
+
+class Car {
+private:
+    string brand;
+    string model;
+    int year;
+
+public:
+    // Constructor
+    Car(string b, string m, int y) {
+        brand = b;
+        model = m;
+        year = y;
+    }
+
+    // Method to display car details
+    void displayInfo() {
+        cout << "Car: " << year << " " << brand << " " << model << endl;
+    }
+};
+
+int main() {
+    // Creating an object of Car class
+    Car myCar("Toyota", "Corolla", 2022);
+    
+    // Displaying car details
+    myCar.displayInfo();
+
+    return 0;
+}
+```cpp
 
 Object – An instance of a class that contains specific data and can perform actions.
 
