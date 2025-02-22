@@ -2,7 +2,8 @@
 Object-Oriented Programming (OOP) is a programming paradigm that focuses on organizing code using objects and classes. It enhances code modularity, reusability, and maintainability by structuring programs around real-world entities.
 
 ## Core Concepts of OOP
- Class  – A blueprint for creating objects. It defines properties (attributes) and behaviors (methods).
+## Class  
+ A blueprint for creating objects. It defines properties (attributes) and behaviors (methods).
  ```cpp
 #include <iostream>
 using namespace std;
@@ -38,13 +39,92 @@ int main() {
 }
 ```
 
-Object – An instance of a class that contains specific data and can perform actions.
+## Object 
+An instance of a class that contains specific data and can perform actions.
+```cpp
+#include <iostream>
+using namespace std;
+
+class Car {
+public:
+    void display() {
+        cout << "This is a car." << endl;
+    }
+};
+
+int main() {
+    Car myCar;  // Creating an object of the Car class
+    myCar.display();  // Calling the method
+
+    return 0;
+}
+```
 
 Encapsulation – Hiding internal details of an object and restricting direct access to some attributes for data security.
 
 Inheritance – Allowing a class to derive properties and behaviors from another class, promoting reusability.
+```cpp
+#include <iostream>
+using namespace std;
+
+// Base class (Parent)
+class Animal {
+public:
+    void makeSound() {
+        cout << "Animal makes a sound" << endl;
+    }
+};
+
+// Derived class (Child) using Inheritance
+class Dog : public Animal {
+public:
+    void makeSound() {  // Method Overriding (Polymorphism)
+        cout << "Dog barks" << endl;
+    }
+};
+
+int main() {
+    Animal a;
+    Dog d;
+
+    a.makeSound();  // Calls base class method
+    d.makeSound();  // Calls derived class method (Polymorphism)
+
+    return 0;
+}
+```
 
 Polymorphism – Enabling a single interface to be used for different data types or classes, making code more flexible.
+```cpp
+#include <iostream>
+using namespace std;
+
+// Base class (Parent)
+class Animal {
+public:
+    void makeSound() {
+        cout << "Animal makes a sound" << endl;
+    }
+};
+
+// Derived class (Child) using Inheritance
+class Dog : public Animal {
+public:
+    void makeSound() {  // Method Overriding (Polymorphism)
+        cout << "Dog barks" << endl;
+    }
+};
+
+int main() {
+    Animal a;
+    Dog d;
+
+    a.makeSound();  // Calls base class method
+    d.makeSound();  // Calls derived class method (Polymorphism)
+
+    return 0;
+}
+```
 
 Abstraction – Hiding complex implementation details and exposing only the necessary functionality to the user.
 
