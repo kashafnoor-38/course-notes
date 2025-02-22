@@ -1,0 +1,44 @@
+##Inheritance in Object-Oriented Programming (OOP)
+
+Introduction to Inheritance
+
+Inheritance is a fundamental concept of Object-Oriented Programming (OOP) that allows a class (child class) to inherit properties and behaviors from another class (parent class). It promotes code reusability and a hierarchical relationship between classes.
+
+Key Concepts of Inheritance
+
+Parent Class (Base Class or Superclass) – The class whose properties and methods are inherited.
+
+Child Class (Derived Class or Subclass) – The class that inherits from the parent class.
+
+Reusability – Reduces code duplication by reusing existing functionalities.
+
+Extensibility – Allows new functionalities to be added without modifying existing code.
+
+##Types of Inheritance
+
+## Single Inheritance
+
+A child class inherits from only one parent class.
+
+Example:
+class Parent {
+public:
+    void show() { cout << "This is the parent class."; }
+};
+class Child : public Parent {
+};
+##Multiple Inheritance
+
+A child class inherits from multiple parent classes.
+
+Example:
+class A {
+public:
+    void showA() { cout << "Class A"; }
+};
+class B {
+public:
+    void showB() { cout << "Class B"; }
+};
+class C : public A, public B {
+};
