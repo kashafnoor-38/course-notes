@@ -60,9 +60,11 @@ int main() {
 }
 ```
 
-Encapsulation – Hiding internal details of an object and restricting direct access to some attributes for data security.
+## Encapsulation 
+Hiding internal details of an object and restricting direct access to some attributes for data security.
 
-Inheritance – Allowing a class to derive properties and behaviors from another class, promoting reusability.
+## Inheritance 
+Allowing a class to derive properties and behaviors from another class, promoting reusability.
 ```cpp
 #include <iostream>
 using namespace std;
@@ -94,7 +96,8 @@ int main() {
 }
 ```
 
-Polymorphism – Enabling a single interface to be used for different data types or classes, making code more flexible.
+## Polymorphism
+Enabling a single interface to be used for different data types or classes, making code more flexible.
 ```cpp
 #include <iostream>
 using namespace std;
@@ -126,7 +129,8 @@ int main() {
 }
 ```
 
-Abstraction – Hiding complex implementation details and exposing only the necessary functionality to the user.
+## Abstraction 
+Hiding complex implementation details and exposing only the necessary functionality to the user.
 
 ## Benefits of OOP
 ✔ Code Reusability – Reduces redundancy by using classes and objects multiple times.
