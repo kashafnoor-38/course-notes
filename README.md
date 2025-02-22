@@ -36,7 +36,7 @@ int main() {
 
     return 0;
 }
-```cpp
+```
 
 Object – An instance of a class that contains specific data and can perform actions.
 
