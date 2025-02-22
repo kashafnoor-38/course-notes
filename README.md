@@ -2,7 +2,7 @@
 Object-Oriented Programming (OOP) is a programming paradigm that focuses on organizing code using objects and classes. It enhances code modularity, reusability, and maintainability by structuring programs around real-world entities.
 
 ## Core Concepts of OOP
-# Class  – A blueprint for creating objects. It defines properties (attributes) and behaviors (methods).
+ Class  – A blueprint for creating objects. It defines properties (attributes) and behaviors (methods).
 
 Object – An instance of a class that contains specific data and can perform actions.
 
