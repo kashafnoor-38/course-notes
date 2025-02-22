@@ -16,8 +16,12 @@ Abstraction – Hiding complex implementation details and exposing only the nece
 
 ## Benefits of OOP
 ✔ Code Reusability – Reduces redundancy by using classes and objects multiple times.
+<br>
 ✔ Modularity – Organizes code into separate entities, making it easy to manage.
+<br>
 ✔ Scalability – Supports easy modification and extension of code.
+<br>
 ✔ Security – Protects sensitive data using encapsulation.
+<br>
 
 OOP is widely used in languages like Java, Python, C++, and C# for building scalable and efficient applications.
